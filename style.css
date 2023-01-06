@@ -1,0 +1,116 @@
+* {
+  font-family: "Work Sans";
+  margin: 0;
+  padding: 0;
+}
+
+.banner-div {
+  background: url("/images/banner/banner2.png") no-repeat center;
+  height: 600px;
+  text-align: right;
+  background-size: cover;
+}
+
+.banner-title {
+  font-weight: 700;
+  font-size: 65px;
+  padding-top: 130px;
+  padding-right: 200px;
+  color: #151414;
+}
+
+.banner-description {
+  font-weight: 400;
+  font-size: 16px;
+  padding-top: 22px;
+  padding-right: 200px;
+  color: #444343;
+  padding-bottom: 34px;
+}
+.banner-btn {
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  background: #f15b22;
+  border-radius: 5px;
+  border: 0;
+  margin-right: 200px;
+  padding: 21px 22px 20px 23px;
+}
+/* failure section */
+.failure-section {
+  display: flex;
+}
+.person-img {
+  width: 569px;
+  height: 723.3px;
+  padding-top: 130px;
+  padding-left: 174px;
+}
+.failure-title {
+  font-weight: 700px;
+  font-size: 50px;
+  color: #151414;
+  padding-top: 379px;
+  padding-left: 131px;
+}
+.failure-description {
+  padding: 24px 310px 12px 131px;
+
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+}
+.items {
+  padding: 12px 310px 18px 131px;
+  list-style: none;
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+}
+.tick-mark {
+  height: 16px;
+  width: 16px;
+  color: green;
+}
+.item {
+  padding: 4px;
+  white-space: nowrap;
+}
+/* plan-section */
+.plan-div {
+  display: flex;
+
+  justify-content: space-between;
+  padding-left: 230px;
+  padding-right: 230px;
+}
+.plan-img {
+  width: 92px;
+  height: 92px;
+  padding-bottom: 25px;
+}
+.plan-title {
+  font-weight: 800;
+  font-size: 45px;
+  color: #151414;
+  text-align: center;
+  padding-top: 102px;
+  padding-bottom: 50px;
+}
+.plan-desc {
+  font-weight: 700;
+  font-size: 30px;
+  color: #151414;
+
+  padding-bottom: 13px;
+  padding-right: 25px;
+}
+.plan-text {
+  font-weight: 500;
+  font-size: 25px;
+  color: #737272;
+}
+.plan {
+  text-align: center;
+}
