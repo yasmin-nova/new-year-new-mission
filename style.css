@@ -6,9 +6,11 @@
 
 .banner-div {
   background: url("/images/banner/banner2.png") no-repeat center;
+  width: 100%;
   height: 600px;
   text-align: right;
   background-size: cover;
+  padding-right: 25px;
 }
 
 .banner-title {
@@ -90,7 +92,8 @@
   height: 92px;
   padding-bottom: 25px;
 }
-.plan-title {
+.plan-title,
+.hobby-title {
   font-weight: 800;
   font-size: 45px;
   color: #151414;
@@ -102,10 +105,12 @@
   font-weight: 700;
   font-size: 30px;
   color: #151414;
-
+  text-align: center;
   padding-bottom: 13px;
   padding-right: 25px;
+  padding-left: 8px;
 }
+
 .plan-text {
   font-weight: 500;
   font-size: 25px;
@@ -113,4 +118,49 @@
 }
 .plan {
   text-align: center;
+}
+.hobby {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 124px;
+}
+
+.hobby-img {
+  width: 92px;
+  height: 92px;
+  padding-bottom: 20px;
+}
+/* positive-section */
+.positive-section {
+  background: url("images/watch.png"),
+    linear-gradient(90deg, #e65d28 0%, rgba(241, 91, 34, 0) 100%);
+  border-radius: 8px;
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  width: 1000px;
+  height: 300px;
+  background-position: center;
+  margin-left: 250px;
+  margin-bottom: 130px;
+}
+.positive-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+  padding-top: 59px;
+  padding-left: 64px;
+}
+.positive-btn {
+  font-weight: 600;
+  font-size: 16px;
+  color: #f15b22;
+
+  border: 0;
+  margin-top: 9px;
+  margin-left: 65px;
+  padding: 21px 22px 20px 23px;
+  background: #ffffff;
+  border-radius: 5px;
+  width: 160px;
+  height: 64px;
 }
